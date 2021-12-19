@@ -1,0 +1,12 @@
+--- file-5.38/config.sub.orig	2021-12-19 15:58:42.102402700 -0700
++++ file-5.38/config.sub	2021-12-19 15:59:33.632402700 -0700
+@@ -1468,6 +1468,9 @@
+ 	oss*)
+ 		os=sysv3
+ 		;;
++	serenity)
++		os=serenity
++		;;
+ 	svr4*)
+ 		os=sysv4
+ 		;;
